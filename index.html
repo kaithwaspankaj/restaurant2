@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FoodHub - Delicious dining experience with modern cuisine">
+    <title>FoodHub - Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header class="header" role="banner">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo">
+                <h1>Food<span>Hub</span></h1>
+            </div>
+            
+            <!-- Navigation -->
+             <nav class="nav" id="main-navigation" role="navigation" aria-label="Main navigation">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#booking" class="btn-book">Book Now</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Mobile Menu Button -->
+            <button 
+                class="menu-toggle" 
+                aria-label="Toggle navigation menu"
+                aria-expanded="false"
+                aria-controls="main-navigation"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile menu overlay -->
+    <div class="nav-overlay" aria-hidden="true"></div>
+    
+
+
+
+
+
+    
+    <!-- Hero Section -->
+<section class="hero" id="home">
+
+    <div class="hero-content">
+        <h1>Experience The Taste Of Perfection</h1>
+        <p>
+            Fresh ingredients, authentic recipes, and unforgettable dining moments.
+            Discover flavors crafted with passion.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#" class="btn-primary">View Menu</a>
+            <a href="#" class="btn-secondary">Reserve Table</a>
+        </div>
+    </div>
+
+    <!-- Scroll Down Arrow -->
+    <div class="scroll-down">
+        <span></span>
+    </div>
+
+</section>
+
+
+
+
+
+<!-- ================= ABOUT SECTION ================= -->
+
+<section class="about" id="about">
+    <div class="about-container">
+
+        <!-- Left Side Image -->
+        <div class="about-image">
+            <img src="img2.webp" alt="Restaurant interior with chefs preparing food">
+        </div>
+
+        <!-- Right Side Content -->
+        <div class="about-content">
+
+            <h2 class="section-title">Our Story</h2>
+            <h3 class="section-subtitle">A Legacy of Culinary Excellence</h3>
+
+            <p class="about-text">
+                Since 1995, Taj Mahal Palace has been serving authentic Indian cuisine 
+                with a perfect blend of traditional recipes and modern culinary techniques. 
+                Our master chefs bring decades of experience, creating dishes that tell 
+                stories of rich heritage and passion.
+            </p>
+
+            <p class="about-text">
+                Every dish is crafted with love, using only the finest ingredients. 
+                We believe that great food brings people together, creating memories 
+                that last a lifetime. Join us for an unforgettable dining experience.
+            </p>
+
+            <!-- Features -->
+            <div class="about-features">
+
+                <div class="feature-box">
+                    <h4>Fresh Ingredients</h4>
+                    <p>Sourced daily from local farms</p>
+                </div>
+
+                <div class="feature-box">
+                    <h4>Expert Chefs</h4>
+                    <p>Master culinary artists with years of experience</p>
+                </div>
+
+                <div class="feature-box">
+                    <h4>Quick Service</h4>
+                    <p>Fast and efficient without compromising quality</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
+<!-- ================= MENU SECTION ================= -->
+
+<section class="menu" id="menu">
+    <div class="menu-container">
+
+        <div class="menu-header">
+            <h2 class="menu-title">Chef's Special</h2>
+            <h3 class="menu-subtitle">Our Signature Dishes</h3>
+            <p class="menu-description">
+                Handcrafted delicacies that define our culinary excellence
+            </p>
+        </div>
+
+        <div class="menu-grid">
+
+            <!-- Menu Item -->
+            <div class="menu-card popular">
+                <span class="badge">Popular</span>
+                <img src="img3.webp" alt="Butter Chicken">
+                <div class="menu-content">
+                    <div class="menu-top">
+                        <h4>Butter Chicken</h4>
+                        <span class="rating">⭐ 4.9</span>
+                    </div>
+                    <p>Creamy tomato-based curry with tender chicken pieces</p>
+                    <div class="menu-bottom">
+                        <span class="price">₹450</span>
+                        <button class="order-btn">Order</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Repeat Cards -->
+
+            <div class="menu-card popular">
+                <span class="badge">Popular</span>
+                <img src="img4.webp" alt="Hyderabadi Biryani">
+                <div class="menu-content">
+                    <div class="menu-top">
+                        <h4>Hyderabadi Biryani</h4>
+                        <span class="rating">⭐ 4.8</span>
+                    </div>
+                    <p>Aromatic basmati rice with spiced meat and saffron</p>
+                    <div class="menu-bottom">
+                        <span class="price">₹380</span>
+                        <button class="order-btn">Order</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="img5.webp" alt="Paneer Tikka Masala">
+                <div class="menu-content">
+                    <div class="menu-top">
+                        <h4>Paneer Tikka Masala</h4>
+                        <span class="rating">⭐ 4.7</span>
+                    </div>
+                    <p>Grilled cottage cheese in rich spiced gravy</p>
+                    <div class="menu-bottom">
+                        <span class="price">₹320</span>
+                        <button class="order-btn">Order</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="img6.webp" alt="Tandoori Chicken">
+                <div class="menu-content">
+                    <div class="menu-top">
+                        <h4>Tandoori Chicken</h4>
+                        <span class="rating">⭐ 4.9</span>
+                    </div>
+                    <p>Clay oven roasted chicken with authentic spices</p>
+                    <div class="menu-bottom">
+                        <span class="price">₹420</span>
+                        <button class="order-btn">Order</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="img7.webp" alt="Dal Makhani">
+                <div class="menu-content">
+                    <div class="menu-top">
+                        <h4>Dal Makhani</h4>
+                        <span class="rating">⭐ 4.6</span>
+                    </div>
+                    <p>Slow-cooked black lentils with butter and cream</p>
+                    <div class="menu-bottom">
+                        <span class="price">₹280</span>
+                        <button class="order-btn">Order</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card popular">
+                <span class="badge">Popular</span>
+                <img src="img8.webp" alt="Garlic Naan">
+                <div class="menu-content">
+                    <div class="menu-top">
+                        <h4>Garlic Naan</h4>
+                        <span class="rating">⭐ 4.8</span>
+                    </div>
+                    <p>Fresh tandoor-baked flatbread with garlic and butter</p>
+                    <div class="menu-bottom">
+                        <span class="price">₹80</span>
+                        <button class="order-btn">Order</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="img9.webp" alt="Gulab Jamun">
+                <div class="menu-content">
+                    <div class="menu-top">
+                        <h4>Gulab Jamun</h4>
+                        <span class="rating">⭐ 4.7</span>
+                    </div>
+                    <p>Sweet milk-solid dumplings in rose-flavored syrup</p>
+                    <div class="menu-bottom">
+                        <span class="price">₹120</span>
+                        <button class="order-btn">Order</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-card">
+                <img src="img10.webp" alt="Masala Chai">
+                <div class="menu-content">
+                    <div class="menu-top">
+                        <h4>Masala Chai</h4>
+                        <span class="rating">⭐ 4.5</span>
+                    </div>
+                    <p>Traditional spiced tea with aromatic herbs</p>
+                    <div class="menu-bottom">
+                        <span class="price">₹60</span>
+                        <button class="order-btn">Order</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<!-- ================= COMPLETE MENU SECTION ================= -->
+<section class="full-menu" id="full-menu" role="region" aria-label="Restaurant Menu">
+    <div class="menu-wrapper">
+        <!-- Menu Header -->
+        <div class="menu-header">
+            <h2>Complete Menu</h2>
+            <h3>Explore Our Full Menu</h3>
+            <p>A diverse selection of authentic Indian flavors to satisfy every craving</p>
+        </div>
+
+        <!-- Category Navigation Tabs -->
+        <nav class="menu-tabs" role="tablist" aria-label="Menu Categories">
+            <button class="tab-btn active" data-category="all" role="tab" aria-selected="true" aria-controls="menu-items">
+                All Items
+            </button>
+            <button class="tab-btn" data-category="starters" role="tab" aria-selected="false" aria-controls="menu-items">
+                Starters
+            </button>
+            <button class="tab-btn" data-category="main" role="tab" aria-selected="false" aria-controls="menu-items">
+                Main Course
+            </button>
+            <button class="tab-btn" data-category="desserts" role="tab" aria-selected="false" aria-controls="menu-items">
+                Desserts
+            </button>
+            <button class="tab-btn" data-category="beverages" role="tab" aria-selected="false" aria-controls="menu-items">
+                Beverages
+            </button>
+        </nav>
+
+        <!-- Menu Items Grid -->
+        <div class="menu-items" id="menu-items" role="tabpanel">
+            <!-- ================= STARTERS ================= -->
+            <article class="menu-item" data-category="starters">
+                <h4>Vegetable Samosa</h4>
+                <p>Crispy pastry filled with spiced potatoes and peas</p>
+                <span class="price">₹120</span>
+            </article>
+
+            <article class="menu-item" data-category="starters">
+                <h4>Chicken Tikka</h4>
+                <p>Marinated chicken pieces grilled in tandoor</p>
+                <span class="price">₹280</span>
+            </article>
+
+            <article class="menu-item" data-category="starters">
+                <h4>Paneer Pakora</h4>
+                <p>Cottage cheese fritters with mint chutney</p>
+                <span class="price">₹180</span>
+            </article>
+
+            <article class="menu-item" data-category="starters">
+                <h4>Fish Amritsari</h4>
+                <p>Crispy batter-fried fish with spices</p>
+                <span class="price">₹320</span>
+            </article>
+
+            <article class="menu-item" data-category="starters">
+                <h4>Aloo Tikki</h4>
+                <p>Spiced potato patties with tamarind sauce</p>
+                <span class="price">₹100</span>
+            </article>
+
+            <article class="menu-item" data-category="starters">
+                <h4>Chicken 65</h4>
+                <p>Spicy deep-fried chicken appetizer</p>
+                <span class="price">₹260</span>
+            </article>
+
+            <!-- ================= MAIN COURSE ================= -->
+            <article class="menu-item" data-category="main">
+                <h4>Butter Chicken</h4>
+                <p>Creamy tomato-based curry with tender chicken</p>
+                <span class="price">₹450</span>
+            </article>
+
+            <article class="menu-item" data-category="main">
+                <h4>Hyderabadi Biryani</h4>
+                <p>Aromatic rice with meat and exotic spices</p>
+                <span class="price">₹380</span>
+            </article>
+
+            <article class="menu-item" data-category="main">
+                <h4>Paneer Tikka Masala</h4>
+                <p>Grilled cottage cheese in spiced gravy</p>
+                <span class="price">₹320</span>
+            </article>
+
+            <article class="menu-item" data-category="main">
+                <h4>Rogan Josh</h4>
+                <p>Aromatic lamb curry with Kashmiri spices</p>
+                <span class="price">₹480</span>
+            </article>
+
+            <article class="menu-item" data-category="main">
+                <h4>Dal Makhani</h4>
+                <p>Creamy black lentils slow-cooked overnight</p>
+                <span class="price">₹280</span>
+            </article>
+
+            <article class="menu-item" data-category="main">
+                <h4>Palak Paneer</h4>
+                <p>Cottage cheese in creamy spinach gravy</p>
+                <span class="price">₹300</span>
+            </article>
+
+            <article class="menu-item" data-category="main">
+                <h4>Chicken Korma</h4>
+                <p>Mild creamy chicken curry with cashews</p>
+                <span class="price">₹420</span>
+            </article>
+
+            <article class="menu-item" data-category="main">
+                <h4>Vegetable Jalfrezi</h4>
+                <p>Mixed vegetables in tangy tomato sauce</p>
+                <span class="price">₹290</span>
+            </article>
+
+            <!-- ================= DESSERTS ================= -->
+            <article class="menu-item" data-category="desserts">
+                <h4>Gulab Jamun</h4>
+                <p>Sweet dumplings in rose-flavored syrup</p>
+                <span class="price">₹120</span>
+            </article>
+
+            <article class="menu-item" data-category="desserts">
+                <h4>Rasmalai</h4>
+                <p>Soft cheese patties in creamy milk</p>
+                <span class="price">₹140</span>
+            </article>
+
+            <article class="menu-item" data-category="desserts">
+                <h4>Kulfi</h4>
+                <p>Traditional Indian ice cream with pistachios</p>
+                <span class="price">₹100</span>
+            </article>
+
+            <article class="menu-item" data-category="desserts">
+                <h4>Gajar Halwa</h4>
+                <p>Warm carrot pudding with nuts</p>
+                <span class="price">₹130</span>
+            </article>
+
+            <article class="menu-item" data-category="desserts">
+                <h4>Jalebi</h4>
+                <p>Crispy orange swirls soaked in sugar syrup</p>
+                <span class="price">₹90</span>
+            </article>
+
+            <article class="menu-item" data-category="desserts">
+                <h4>Kheer</h4>
+                <p>Rice pudding with cardamom and saffron</p>
+                <span class="price">₹110</span>
+            </article>
+
+            <!-- ================= BEVERAGES ================= -->
+            <article class="menu-item" data-category="beverages">
+                <h4>Masala Chai</h4>
+                <p>Spiced tea with aromatic herbs</p>
+                <span class="price">₹60</span>
+            </article>
+
+            <article class="menu-item" data-category="beverages">
+                <h4>Mango Lassi</h4>
+                <p>Sweet yogurt drink with mango pulp</p>
+                <span class="price">₹100</span>
+            </article>
+
+            <article class="menu-item" data-category="beverages">
+                <h4>Rose Sharbat</h4>
+                <p>Refreshing rose-flavored drink</p>
+                <span class="price">₹80</span>
+            </article>
+
+            <article class="menu-item" data-category="beverages">
+                <h4>Fresh Lime Soda</h4>
+                <p>Tangy lime with sparkling water</p>
+                <span class="price">₹70</span>
+            </article>
+
+            <article class="menu-item" data-category="beverages">
+                <h4>Thandai</h4>
+                <p>Traditional milk drink with nuts and spices</p>
+                <span class="price">₹120</span>
+            </article>
+
+            <article class="menu-item" data-category="beverages">
+                <h4>Filter Coffee</h4>
+                <p>South Indian style strong coffee</p>
+                <span class="price">₹80</span>
+            </article>
+        </div>
+
+        <!-- Download Button -->
+        <div class="menu-download">
+            <a href="menu.pdf" class="download-btn" id="download-menu" download>
+                Download Full Menu PDF
+            </a>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<!-- ================= GALLERY SECTION ================= -->
+<!-- ================= GALLERY SECTION ================= -->
+<section class="gallery" id="gallery" aria-label="Restaurant Gallery">
+    <div class="gallery-wrapper">
+        <!-- Gallery Header -->
+        <div class="gallery-header">
+            <h2>Visual Feast</h2>
+            <h3>Our Gallery</h3>
+            <p>Experience the ambiance and artistry of our culinary creations</p>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid" role="list">
+            <div class="gallery-item" role="listitem" tabindex="0" data-index="0">
+                <img 
+                    src="img11.webp" 
+                    alt="Elegant restaurant interior with warm lighting and contemporary decor"
+                    loading="lazy"
+                    width="350"
+                    height="280"
+                >
+                <span class="gallery-title">Restaurant Interior</span>
+            </div>
+
+            <div class="gallery-item" role="listitem" tabindex="0" data-index="1">
+                <img 
+                    src="img12.webp" 
+                    alt="Beautifully plated gourmet dish with artistic presentation"
+                    loading="lazy"
+                    width="350"
+                    height="280"
+                >
+                <span class="gallery-title">Gourmet Plating</span>
+            </div>
+
+            <div class="gallery-item" role="listitem" tabindex="0" data-index="2">
+                <img 
+                    src="img13.webp" 
+                    alt="Elegant table setting with fine dining arrangements"
+                    loading="lazy"
+                    width="350"
+                    height="280"
+                >
+                <span class="gallery-title">Table Setting</span>
+            </div>
+
+            <div class="gallery-item" role="listitem" tabindex="0" data-index="3">
+                <img 
+                    src="img14.webp" 
+                    alt="Traditional Indian food spread with various curries and breads"
+                    loading="lazy"
+                    width="350"
+                    height="280"
+                >
+                <span class="gallery-title">Indian Food Spread</span>
+            </div>
+
+            <div class="gallery-item" role="listitem" tabindex="0" data-index="4">
+                <img 
+                    src="img15.webp" 
+                    alt="Creamy butter chicken curry garnished with cream and cilantro"
+                    loading="lazy"
+                    width="350"
+                    height="280"
+                >
+                <span class="gallery-title">Butter Chicken</span>
+            </div>
+
+            <div class="gallery-item" role="listitem" tabindex="0" data-index="5">
+                <img 
+                    src="img16.webp" 
+                    alt="Aromatic biryani rice dish with tender meat and fragrant spices"
+                    loading="lazy"
+                    width="350"
+                    height="280"
+                >
+                <span class="gallery-title">Biryani</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Image Modal Dialog -->
+<div 
+    class="image-modal" 
+    id="image-modal" 
+    role="dialog" 
+    aria-modal="true"
+    aria-labelledby="modal-title"
+    aria-hidden="true"
+>
+    <div class="modal-content">
+        <button 
+            class="close-modal" 
+            aria-label="Close gallery image"
+            type="button"
+        >
+            &times;
+        </button>
+        
+        <button 
+            class="modal-nav modal-prev" 
+            aria-label="Previous image"
+            type="button"
+        >
+            &#8249;
+        </button>
+        
+        <div class="modal-image-container">
+            <img 
+                class="modal-img" 
+                src="" 
+                alt=""
+                id="modal-image"
+            >
+            <div class="image-loader" aria-label="Loading image"></div>
+            <p class="modal-title" id="modal-title"></p>
+        </div>
+        
+        <button 
+            class="modal-nav modal-next" 
+            aria-label="Next image"
+            type="button"
+        >
+            &#8250;
+        </button>
+    </div>
+</div>
+
+
+
+
+
+
+<!-- ================= VIP TESTIMONIAL SECTION ================= -->
+<section 
+    class="vip-testimonials" 
+    id="reviews" 
+    aria-label="Customer Testimonials"
+>
+    <div class="vip-wrapper">
+        <!-- Header -->
+        <div class="vip-header">
+            <h2>Testimonials</h2>
+            <h3>What Our Guests Say</h3>
+            <p>Real experiences from our valued customers</p>
+        </div>
+
+        <!-- Testimonial Slider -->
+        <div 
+            class="vip-slider" 
+            role="region" 
+            aria-label="Customer testimonial carousel"
+            aria-live="polite"
+        >
+            <!-- Review Card 1 -->
+            <article class="vip-card active" data-index="0">
+                <img 
+                    src="img17.webp" 
+                    alt="Portrait of Priya Sharma, satisfied customer from Mumbai"
+                    loading="lazy"
+                    width="80"
+                    height="80"
+                >
+                <blockquote>
+                    <p>
+                        "Absolutely phenomenal experience! The butter chicken was divine and the ambiance transported us to royalty."
+                    </p>
+                </blockquote>
+                <h4>Priya Sharma</h4>
+                <span class="location">Mumbai</span>
+            </article>
+
+            <!-- Review Card 2 -->
+            <article class="vip-card" data-index="1">
+                <img 
+                    src="img18.webp" 
+                    alt="Portrait of Rajesh Kumar, satisfied customer from Delhi"
+                    loading="lazy"
+                    width="80"
+                    height="80"
+                >
+                <blockquote>
+                    <p>
+                        "The biryani here is authentic and packed with flavor. Service is impeccable and highly recommended!"
+                    </p>
+                </blockquote>
+                <h4>Rajesh Kumar</h4>
+                <span class="location">Delhi</span>
+            </article>
+
+            <!-- Review Card 3 -->
+            <article class="vip-card" data-index="2">
+                <img 
+                    src="img19.webp" 
+                    alt="Portrait of Anita Desai, satisfied customer from Bangalore"
+                    loading="lazy"
+                    width="80"
+                    height="80"
+                >
+                <blockquote>
+                    <p>
+                        "Celebrated our anniversary here and it was magical. Food quality and presentation exceeded expectations."
+                    </p>
+                </blockquote>
+                <h4>Anita Desai</h4>
+                <span class="location">Bangalore</span>
+            </article>
+
+            <!-- Review Card 4 -->
+            <article class="vip-card" data-index="3">
+                <img 
+                    src="img20.webp" 
+                    alt="Portrait of Vikram Singh, satisfied customer from Pune"
+                    loading="lazy"
+                    width="80"
+                    height="80"
+                >
+                <blockquote>
+                    <p>
+                        "Every dish is a masterpiece! Premium quality at reasonable prices. Attention to detail is remarkable."
+                    </p>
+                </blockquote>
+                <h4>Vikram Singh</h4>
+                <span class="location">Pune</span>
+            </article>
+
+            <!-- Review Card 5 -->
+            <article class="vip-card" data-index="4">
+                <img 
+                    src="img21.webp" 
+                    alt="Portrait of Meera Patel, satisfied customer from Ahmedabad"
+                    loading="lazy"
+                    width="80"
+                    height="80"
+                >
+                <blockquote>
+                    <p>
+                        "Best dining experience I've had in years. Tandoori items are exceptional and cooked to perfection."
+                    </p>
+                </blockquote>
+                <h4>Meera Patel</h4>
+                <span class="location">Ahmedabad</span>
+            </article>
+        </div>
+
+        <!-- Navigation Controls -->
+        <div class="vip-controls" role="group" aria-label="Testimonial navigation">
+            <button 
+                class="vip-prev" 
+                aria-label="Previous testimonial"
+                type="button"
+            >
+                &#10094;
+            </button>
+            <button 
+                class="vip-next" 
+                aria-label="Next testimonial"
+                type="button"
+            >
+                &#10095;
+            </button>
+        </div>
+
+        <!-- Pagination Dots -->
+        <div 
+            class="vip-dots" 
+            role="tablist" 
+            aria-label="Testimonial pagination"
+        ></div>
+
+        <!-- Statistics Counter Cards -->
+        <div class="vip-stats" role="region" aria-label="Restaurant statistics">
+            <div class="stat-card">
+                <h4 
+                    class="counter" 
+                    data-target="10000"
+                    data-suffix="+"
+                    data-decimal="0"
+                    aria-live="polite"
+                >
+                    0
+                </h4>
+                <p>Happy Customers</p>
+            </div>
+
+            <div class="stat-card">
+                <h4 
+                    class="counter" 
+                    data-target="4.9"
+                    data-suffix=""
+                    data-decimal="1"
+                    aria-live="polite"
+                >
+                    0
+                </h4>
+                <p>Average Rating</p>
+            </div>
+
+            <div class="stat-card">
+                <h4 
+                    class="counter" 
+                    data-target="50"
+                    data-suffix="+"
+                    data-decimal="0"
+                    aria-live="polite"
+                >
+                    0
+                </h4>
+                <p>Menu Items</p>
+            </div>
+
+            <div class="stat-card">
+                <h4 
+                    class="counter" 
+                    data-target="28"
+                    data-suffix=""
+                    data-decimal="0"
+                    aria-live="polite"
+                >
+                    0
+                </h4>
+                <p>Years Experience</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<!-- ================= RESERVATION SECTION ================= -->
+<section class="reservation" id="booking" aria-label="Table Reservation Section">
+    <div class="reservation-wrapper">
+        <!-- Left Side - Form -->
+        <div class="reservation-form-container">
+            <div class="reservation-header">
+                <h2>Book Your Table</h2>
+                <h3>Reserve Your Experience</h3>
+                <p>Secure your table and prepare for an unforgettable culinary journey</p>
+            </div>
+
+            <form id="reservationForm" novalidate aria-label="Reservation form">
+                <!-- Name Field -->
+                <div class="form-group">
+                    <label for="fullName">
+                        Full Name <span class="required" aria-label="required">*</span>
+                    </label>
+                    <input 
+                        type="text" 
+                        id="fullName" 
+                        name="fullName"
+                        placeholder="Enter your name" 
+                        autocomplete="name"
+                        aria-required="true"
+                        aria-describedby="fullName-error"
+                        required
+                    >
+                    <span class="error-message" id="fullName-error" role="alert"></span>
+                </div>
+
+                <!-- Phone Field -->
+                <div class="form-group">
+                    <label for="phone">
+                        Phone Number <span class="required" aria-label="required">*</span>
+                    </label>
+                    <input 
+                        type="tel" 
+                        id="phone" 
+                        name="phone"
+                        placeholder="Enter your phone number" 
+                        autocomplete="tel"
+                        aria-required="true"
+                        aria-describedby="phone-error"
+                        required
+                    >
+                    <span class="error-message" id="phone-error" role="alert"></span>
+                </div>
+
+                <!-- Date & Time Row -->
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="date">
+                            Date <span class="required" aria-label="required">*</span>
+                        </label>
+                        <input 
+                            type="date" 
+                            id="date" 
+                            name="date"
+                            aria-required="true"
+                            aria-describedby="date-error"
+                            required
+                        >
+                        <span class="error-message" id="date-error" role="alert"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="time">
+                            Time <span class="required" aria-label="required">*</span>
+                        </label>
+                        <input 
+                            type="time" 
+                            id="time" 
+                            name="time"
+                            aria-required="true"
+                            aria-describedby="time-error"
+                            required
+                        >
+                        <span class="error-message" id="time-error" role="alert"></span>
+                    </div>
+                </div>
+
+                <!-- Guests Field -->
+                <div class="form-group">
+                    <label for="guests">Number of Guests</label>
+                    <select id="guests" name="guests" aria-describedby="guests-error">
+                        <option value="1">1 Guest</option>
+                        <option value="2" selected>2 Guests</option>
+                        <option value="3">3 Guests</option>
+                        <option value="4">4 Guests</option>
+                        <option value="5">5 Guests</option>
+                        <option value="6">6 Guests</option>
+                        <option value="7">7 Guests</option>
+                        <option value="8">8 Guests</option>
+                        <option value="9+">9+ Guests</option>
+                    </select>
+                    <span class="error-message" id="guests-error" role="alert"></span>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="reserve-btn" id="submitBtn">
+                    <span class="btn-text">Confirm Reservation</span>
+                    <span class="btn-loader" aria-hidden="true"></span>
+                </button>
+
+                <!-- Form-level Message -->
+                <div 
+                    class="form-message" 
+                    id="formMessage" 
+                    role="status" 
+                    aria-live="polite"
+                    aria-atomic="true"
+                ></div>
+            </form>
+        </div>
+
+        <!-- Right Side - Info -->
+        <div class="reservation-info">
+            <div class="info-card">
+                <h4>Opening Hours</h4>
+                <p><strong>Monday - Thursday</strong><br>11:00 AM - 11:00 PM</p>
+                <p><strong>Friday - Sunday</strong><br>11:00 AM - 12:00 AM</p>
+            </div>
+
+            <div class="info-card">
+                <h4>Special Occasions</h4>
+                <p>
+                    Planning a celebration? We offer special arrangements for birthdays,
+                    anniversaries, and corporate events.
+                </p>
+                <a href="tel:+1234567890" class="info-link">Contact us for details →</a>
+            </div>
+
+            <div class="info-card">
+                <h4>Policies</h4>
+                <ul>
+                    <li>Reservations held for 15 minutes past booking time</li>
+                    <li>Advance booking recommended for groups of 6+</li>
+                    <li>Smart casual dress code preferred</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+<!-- ================= CONTACT SECTION ================= -->
+<section 
+    class="contact-section" 
+    id="contact" 
+    aria-labelledby="contact-heading"
+    itemscope 
+    itemtype="https://schema.org/Restaurant"
+>
+    <div class="contact-wrapper">
+        <!-- Section Header -->
+        <div class="contact-header">
+            <h2>Visit Us</h2>
+            <h3 id="contact-heading">Find Our Location</h3>
+            <p>We're conveniently located in the heart of the city</p>
+        </div>
+
+        <div class="contact-grid">
+            <!-- Contact Details -->
+            <div class="contact-details">
+                <!-- Address Card -->
+                <div class="contact-card" itemscope itemtype="https://schema.org/PostalAddress">
+                    <h4>
+                        <span class="icon" aria-hidden="true">📍</span>
+                        Address
+                    </h4>
+                    <p itemprop="address">
+                        <span itemprop="streetAddress">123 Royal Street, Connaught Place</span><br>
+                        <span itemprop="addressLocality">New Delhi</span>, 
+                        <span itemprop="postalCode">110001</span>
+                    </p>
+                    <button 
+                        class="copy-btn" 
+                        data-copy="123 Royal Street, Connaught Place, New Delhi, 110001"
+                        aria-label="Copy address to clipboard"
+                        title="Copy address"
+                    >
+                        📋 Copy Address
+                    </button>
+                </div>
+
+                <!-- Phone Card -->
+                <div class="contact-card">
+                    <h4>
+                        <span class="icon" aria-hidden="true">📞</span>
+                        Phone
+                    </h4>
+                    <p>
+                        <a 
+                            href="tel:+919876543210" 
+                            itemprop="telephone"
+                            aria-label="Call primary phone number +91 98765 43210"
+                        >
+                            +91 98765 43210
+                        </a><br>
+                        <a 
+                            href="tel:+919876543211"
+                            aria-label="Call secondary phone number +91 98765 43211"
+                        >
+                            +91 98765 43211
+                        </a>
+                    </p>
+                    <div class="contact-buttons">
+                        <a 
+                            href="tel:+919876543210" 
+                            class="btn call-btn"
+                            aria-label="Call us now"
+                        >
+                            📞 Call Now
+                        </a>
+                        <a 
+                            href="https://wa.me/919876543210?text=Hi,%20I%20would%20like%20to%20make%20a%20reservation" 
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="btn whatsapp-btn"
+                            aria-label="Contact us on WhatsApp"
+                        >
+                            💬 WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Email Card -->
+                <div class="contact-card">
+                    <h4>
+                        <span class="icon" aria-hidden="true">✉️</span>
+                        Email
+                    </h4>
+                    <p>
+                        <a 
+                            href="mailto:info@tajmahalpalace.com"
+                            itemprop="email"
+                            aria-label="Send email to general inquiries"
+                        >
+                            info@tajmahalpalace.com
+                        </a><br>
+                        <a 
+                            href="mailto:reservations@tajmahalpalace.com"
+                            aria-label="Send email to reservations"
+                        >
+                            reservations@tajmahalpalace.com
+                        </a>
+                    </p>
+                    <button 
+                        class="copy-btn" 
+                        data-copy="info@tajmahalpalace.com"
+                        aria-label="Copy email to clipboard"
+                        title="Copy email"
+                    >
+                        📋 Copy Email
+                    </button>
+                </div>
+
+                <!-- How to Reach -->
+                <div class="contact-card">
+                    <h4>
+                        <span class="icon" aria-hidden="true">🚗</span>
+                        How to Reach
+                    </h4>
+                    <ul>
+                        <li>2 minutes walk from Rajiv Chowk Metro Station</li>
+                        <li>Ample parking available in basement</li>
+                        <li>Valet parking service provided</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Map Section -->
+            <div class="contact-map">
+                <div class="map-container">
+                    <div class="map-loading" id="mapLoading">
+                        <div class="spinner"></div>
+                        <p>Loading map...</p>
+                    </div>
+                    <iframe 
+    id="contactMap"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.89796990267!2d77.2090059!3d28.6314512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd4f7d2b2d3b%3A0x7b3a3b8e3b3c0d!2sConnaught%20Place%2C%20New%20Delhi!5e0!3m2!1sen!2sin!4v1700000000000"
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+    title="Map showing location of Taj Mahal Palace restaurant at Connaught Place, New Delhi"
+    aria-label="Interactive map showing restaurant location"
+    allowfullscreen
+    style="border:0;"
+>
+    <p>
+        Your browser does not support iframes. 
+        <a 
+            href="https://www.google.com/maps/search/?api=1&query=Connaught+Place+New+Delhi"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            View map in Google Maps
+        </a>
+    </p>
+</iframe>
+                </div>
+
+                <div class="map-direction">
+                    <p>
+                        <strong itemprop="name">Taj Mahal Palace</strong><br>
+                        <span itemprop="address">123 Royal Street, Connaught Place</span>
+                    </p>
+                    <a 
+                        href="https://www.google.com/maps/dir/?api=1&destination=Connaught+Place+New+Delhi"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="btn direction-btn"
+                        aria-label="Get directions to Taj Mahal Palace on Google Maps"
+                    >
+                        🧭 Get Directions →
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Toast Notification -->
+        <div 
+            class="toast" 
+            id="copyToast" 
+            role="status" 
+            aria-live="polite" 
+            aria-atomic="true"
+        ></div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ================= FOOTER SECTION ================= -->
+<footer 
+    class="site-footer" 
+    role="contentinfo" 
+    aria-labelledby="footer-heading"
+    itemscope 
+    itemtype="https://schema.org/Restaurant"
+>
+    <div class="footer-wrapper">
+        <!-- Footer Top Grid -->
+        <div class="footer-grid">
+            <!-- Brand Info -->
+            <div class="footer-brand">
+                <h2 id="footer-heading" itemprop="name">
+                    Taj <span>Mahal Palace</span>
+                </h2>
+                <p itemprop="description">
+                    Experience authentic Indian cuisine with a perfect blend 
+                    of tradition and modern culinary excellence since 1995.
+                </p>
+                <!-- Social Media Links -->
+                <div class="social-links" role="navigation" aria-label="Social media links">
+                    <a 
+                        href="https://facebook.com" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        aria-label="Follow us on Facebook"
+                        title="Facebook"
+                    >
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+                        </svg>
+                    </a>
+                    <a 
+                        href="https://instagram.com" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        aria-label="Follow us on Instagram"
+                        title="Instagram"
+                    >
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                        </svg>
+                    </a>
+                    <a 
+                        href="https://twitter.com" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        aria-label="Follow us on Twitter"
+                        title="Twitter"
+                    >
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <nav aria-label="Footer navigation">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#menu">Menu</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#booking">Reservations</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Opening Hours -->
+            <div class="footer-hours">
+                <h3>Opening Hours</h3>
+                <div itemprop="openingHours" content="Mo-Th 11:00-23:00">
+                    <p><strong>Monday - Thursday</strong><br>11:00 AM - 11:00 PM</p>
+                </div>
+                <div itemprop="openingHours" content="Fr-Su 11:00-00:00">
+                    <p><strong>Friday - Sunday</strong><br>11:00 AM - 12:00 AM</p>
+                </div>
+                <p><strong>Lunch Special:</strong> 12:00 PM - 3:00 PM</p>
+            </div>
+
+            <!-- Newsletter -->
+            <div class="footer-newsletter">
+                <h3>Newsletter</h3>
+                <p>
+                    Subscribe to get special offers and updates delivered to your inbox.
+                </p>
+                <form 
+                    id="newsletterForm" 
+                    novalidate
+                    aria-labelledby="newsletter-heading"
+                >
+                    <div class="newsletter-input-group">
+                        <input 
+                            type="email" 
+                            id="newsletterEmail"
+                            name="email"
+                            placeholder="Your email address"
+                            autocomplete="email"
+                            required
+                            aria-label="Email address for newsletter"
+                            aria-describedby="newsletterMessage"
+                        >
+                        <button 
+                            type="submit" 
+                            id="newsletterSubmit"
+                            aria-label="Subscribe to newsletter"
+                        >
+                            <span class="btn-text">Subscribe</span>
+                            <span class="btn-loader" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                    <div 
+                        class="newsletter-message" 
+                        id="newsletterMessage" 
+                        role="status"
+                        aria-live="polite" 
+                        aria-atomic="true"
+                    ></div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="footer-contact" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+                <p>
+                    <span itemprop="streetAddress">123 Royal Street, Connaught Place</span>, 
+                    <span itemprop="addressLocality">Delhi</span> 
+                    <span itemprop="postalCode">110001</span>
+                </p>
+                <p>
+                    <a href="tel:+919876543210" itemprop="telephone">+91 98765 43210</a> |
+                    <a href="mailto:info@tajmahalpalace.com" itemprop="email">info@tajmahalpalace.com</a>
+                </p>
+            </div>
+
+            <div class="footer-legal">
+                <p>© <span id="currentYear"></span> Taj Mahal Palace. All rights reserved.</p>
+                <nav class="footer-policies" aria-label="Legal policies">
+                    <a href="#privacy" rel="nofollow">Privacy Policy</a>
+                    <a href="#terms" rel="nofollow">Terms of Service</a>
+                    <a href="#cookies" rel="nofollow">Cookie Policy</a>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll To Top Button -->
+    <button 
+        class="scroll-top" 
+        id="scrollTopBtn"
+        aria-label="Scroll back to top of page"
+        title="Scroll to top"
+        type="button"
+    >
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <polyline points="18 15 12 9 6 15"/>
+        </svg>
+    </button>
+</footer>
+<script src="js.js"></script>
+</body>
+</html>
+
+
+
